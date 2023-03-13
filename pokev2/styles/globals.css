@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@font-face {
+  font-family: Pokemon ;
+  src: url(../public/font/Pokemon\ Solid.ttf);
+}
+:root{
+  --text-color1:#3b5e5e;
+  --text-color2:#8b8b8b;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+body{
+  background-color: #3e3e3e;
+}
+header{
+  width: 100vw;
+  height: 80px;
+
+  background-color: rgb(243, 70, 70);
+}
+nav{
+  width: 100vw;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+nav> a{
+  text-decoration: none;
+}
+nav h1{
+  font: 500 normal 32px/0px Pokemon;
+  color: #ffea00;
+  -webkit-text-stroke: 2px rgb(8, 26, 222); 
+
+  letter-spacing: 1px;
+}

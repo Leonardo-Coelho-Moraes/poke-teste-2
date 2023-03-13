@@ -1,0 +1,162 @@
+.sec{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   
+}
+
+.pokelist{
+    display: flex;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 50vw;
+    height: 80vh;
+}
+.pokesolo{
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+height: 558px;
+width: 352px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+position: relative;
+}
+.cardcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 3px;
+    height: 341px;
+    position: absolute;
+    
+    bottom: 0;
+    width: 100%;
+
+}
+.cardcontent>h2{
+    margin: 36px auto 11px auto;
+    text-transform: capitalize;
+    font: 500 normal 24px/29px Inter;
+    color: var(--text-color1) ;
+}
+.imagepokemon{
+    position: absolute;
+    z-index: 10;
+    top: 20px;
+    filter: drop-shadow(5px 7px 8px rgba(0, 0, 0, 0.25));
+
+}
+.tam{
+    margin-bottom: 25px;
+    display: flex;
+    gap: 30px;
+    position: relative;
+    align-items: center;
+    justify-content:center;
+}
+.tam>h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font: 500 normal 16px/19px Inter;
+    color: var(--text-color1) ;
+}
+.tam>h3 span{
+    font: 500 normal 12px/19px Inter;
+    color: var(--text-color2) ;
+    text-transform: uppercase;
+}
+.tam::before{
+    display: flex;
+    content: "";
+    margin-bottom: 14px;
+    background-color: var(--text-color2);
+    height: 1px;
+    width: 250%;
+    position:absolute ;
+    align-self: center;
+    top: 46px;
+}
+.types{
+    display: flex;
+    gap: 26px;
+    margin-bottom: 38px;
+}
+.type{
+    padding: 4px 12px;
+    font: 500 normal 16px/19px Inter;
+    color: white;
+    border-radius: 4px;
+}
+.stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 312px;
+
+    gap: 14px;
+}
+.stat{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+
+}
+.stat>h4{
+    font: 500 normal 12px/14px Inter;
+    text-transform: uppercase;
+    color: var(--text-color2);
+    display: flex;
+}
+.statbar{
+    width: 192px;
+    height: 5px;
+    background-color: #E1E4E2;
+    border-radius: 2px;
+}
+.progress{
+    width: 0px;
+    transition:  width 0.3s ease-in;
+    height: 5px;
+    background-color: #60ECB0;
+    border-radius: 2px;
+}
+
+
+.type_bug{background-color:#A7B723 ;}
+.type_dark{background-color: #75574C;}
+.type_dragon{background-color: #7037FF;}
+.type_electric{background-color: #F9CF30;}
+.type_fairy{background-color: #E69EAC;}
+.type_fighting{background-color: #C12239;}
+.type_fire{background-color: #F57D31;}
+.type_flying{background-color: #A891EC;}
+.type_ghost{background-color: #70559B;}
+.type_normal{background-color: #AAA67F;}
+.type_grass{background-color: #74CB48;}
+.type_ground{background-color: #DEC16B;}
+.type_ice{background-color: #9AD6DF;}
+.type_poison{background-color: #A43E9E;}
+.type_psychic{background-color: #FB5584;}
+.type_rock{background-color: #B69E31;}
+.type_steel{background-color: #B7B9D0;}
+.type_water{background-color: #6493EB;}
