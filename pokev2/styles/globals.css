@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Inter:wght@400;500&family=Poppins&display=swap');
 @font-face {
   font-family: Pokemon ;
   src: url(../public/font/Pokemon\ Solid.ttf);
@@ -23,13 +23,13 @@ body{
 }
 header{
   width: 100vw;
-  height: 80px;
+  height: 70px;
 
-  background-color: rgb(243, 70, 70);
+  background-color: #7037FF;
 }
 nav{
   width: 100vw;
-  height: 80px;
+  height: 70px;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -44,3 +44,22 @@ nav h1{
 
   letter-spacing: 1px;
 }
+
+footer{
+  height: 40px;
+  width: 100vw;
+  background-color: #7037FF;
+  text-align: center;
+  display:  flex;
+  align-items: center;
+  justify-content: center;
+  font: 500 normal 20px/22px Inter;
+}
+  #__next{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
